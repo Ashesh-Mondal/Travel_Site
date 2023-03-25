@@ -274,3 +274,11 @@ body{
     display: block;
     clear: both;
 }
+
+.icon{
+    font-size: 1.5rem;
+}
+
+.box-1 .icon, .box-3 .icon{
+    color: #e93964;
+}
