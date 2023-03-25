@@ -85,6 +85,20 @@ h1, h2, h3{
     border-radius: 1.5em;
 }
 
+.btn-primary:hover{
+    background-color: #f4f4f4;
+}
+
+.btn-secondary{
+    background-color: white;
+    border: 0.15rem solid #e93964;
+    border-radius: 1.5em;
+}
+
+.btn-secondary:hover{
+    background-color: #fcf3f2;
+}
+
 
 
 
@@ -103,10 +117,6 @@ h1, h2, h3{
 body{
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
-}
-
-.header .navbar{
-    /* border: 2px solid #f4f4f4; */
 }
 
 .header .navbar .nav-item a{
@@ -172,3 +182,59 @@ body{
 }
 
 
+
+
+/* ###################### SHOWCASE STYLING SHEET ######################### */
+
+.showcase{
+    background-color: #dddddd;
+    padding: 10rem 0;
+}
+
+.row{
+    height: 350px;
+    box-shadow: 0px 0px 20px 0px #aaa;
+}
+
+.row1{
+    margin-bottom: 10em;
+}
+
+.row1 .img-box, .row2 .text-box{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.row1 .text-box, .row2 .img-box{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.row1 .text-box, .row2 .text-box{
+    padding: 5em;
+    background-color: #ffffff;
+}
+
+.row .img-box img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.row1 .text-box .row1-heading, .row2 .text-box .row2-heading{
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.row a:link{
+    text-decoration: none;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
