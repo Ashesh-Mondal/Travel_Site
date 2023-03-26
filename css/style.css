@@ -458,6 +458,13 @@ body{
     margin-bottom: 3rem;
 }
 
+.form-wrapper .company-address img{
+    max-width: 90%;
+    min-height: 40rem;
+    object-fit: cover;
+    object-position: right;
+}
+
 
 
 
