@@ -282,3 +282,22 @@ body{
 .box-1 .icon, .box-3 .icon{
     color: #e93964;
 }
+
+
+
+
+
+/* ######################### FOOTER STYLING ########################## */
+
+
+
+.footer{
+    background-color: #263238;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 2rem;
+}
+
+.social-media-links i{
+    padding: 2rem;
+}
