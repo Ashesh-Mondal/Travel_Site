@@ -72,6 +72,10 @@ h1, h2, h3{
     color: #555555;
 }
 
+.bg-dark{
+    background-color: #263238;
+}
+
 .btn{
     display: inline-block;
     padding: 0.5em 1.5em;
@@ -119,30 +123,30 @@ body{
     line-height: 1.7;
 }
 
-.header .navbar .nav-item a{
+.navbar .nav-item a{
     padding-bottom: 0.3rem;
 }
 
-.header .logo, .header .nav-items a{
+.navbar .logo, .navbar .nav-items a{
     color: #f4f4f4;
 }
 
-.header .navbar .logo{
+.navbar .logo{
     font-weight: 400;
     float: left;
 }
-.header .navbar .nav-items{
+.navbar .nav-items{
     float: right;
     margin-top: 1rem;
 }
 
-.header .navbar::after{
+.navbar::after{
     content: "";
     display: block;
     clear: both;
 }
 
-.header .navbar .nav-item{
+.navbar .nav-item{
     display: inline-block;
     text-transform: uppercase;
     padding: 1rem;
