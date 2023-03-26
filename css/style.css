@@ -424,3 +424,52 @@ body{
     text-decoration: none;
     font-weight: 700;
 }
+
+
+
+
+
+/* ########################## CONTACT PAGE STYLING ######################### */
+
+.contact-form{
+    padding: 5rem 0;
+    background: #f7f7f7;
+}
+
+.form-wrapper .company-address{
+    background: #fff;
+    float: left;
+    width: 49%;
+    border: 2px solid green;
+    padding: 1rem;
+}
+
+.form-wrapper .company-address i{
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.form-wrapper .company-address h2{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.form-wrapper .address-group{
+    margin-bottom: 3rem;
+}
+
+
+
+
+.form-wrapper .form{
+    background: #fff;
+    float: right;
+    width: 49%;
+    border: 2px solid violet;
+}
+
+.form-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
