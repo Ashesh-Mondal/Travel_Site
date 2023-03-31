@@ -261,7 +261,6 @@ body{
     float: left;
     padding: 1rem;
     text-align: center;
-    /* box-shadow: 0px 0px 20px 0px #aaa; */
 }
 
 .box-wrapper .box-1, .box-wrapper .box-3{
@@ -333,18 +332,15 @@ body{
 /* ############################ BOX CONTENT STYLING ############################ */
 
 .box-content{
-    /* border: 2px solid red; */
     padding: 1rem 20rem;
 }
 
 .box-content .first-box{
     float: left;
-    /* border: 2px solid green; */
 }
 
 .box-content .second-box{
     float: right;
-    /* border: 2px solid blueviolet; */
 }
 
 .box-content::after{
@@ -531,3 +527,222 @@ body{
     cursor: pointer;
 }
 
+
+
+
+
+/* ############################ MEDIA QUERIES ############################### */
+
+@media (max-width: 500px){
+    
+    *{
+        box-sizing: border-box;
+    }
+    :root{
+        font-size: 50%;
+    }
+
+    .navbar .nav-items, .navbar .logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .row{
+        height: auto;
+        width: 100%;
+    }
+
+    .row .img-box, .row .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+        box-shadow: 5px 5px 20px 0px #aaa;    }
+
+    .features .box-2, .features .box-3{
+        margin-top: 2rem;
+    }
+
+    .features .box-wrapper{
+        box-shadow: none;
+    }
+
+    .cta-banner-left, .cta-banner-right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .box-content .first-box, .box-content .second-box{
+        float: none;
+        width: 100%;
+        height: auto;
+        text-align: left;
+    }
+
+    .box-content{
+        padding: 0.5rem 1rem;
+        text-align: center;
+    }
+
+    .about-containent{
+        text-align: left;
+        width: 100%;
+    }
+
+    .count-item{
+        font-weight: 600;
+        float: left;
+        width: 50%;
+    }
+
+    .form-wrapper .company-address{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+
+    .form .contact-heading{
+        font-size: 4rem;
+    }
+
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ####################### FOR DEVICES MORE THAN 501px ######################### */
+
+
+@media (min-width: 501px) and (max-width: 600px){
+    *{
+        box-sizing: border-box;
+    }
+    :root{
+        font-size: 50%;
+    }
+
+    .row{
+        height: auto;
+        width: 100%;
+    }
+
+    .row .img-box, .row .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+        box-shadow: 5px 5px 20px 0px #aaa;    }
+
+    .features .box-2, .features .box-3{
+        margin-top: 2rem;
+    }
+
+    .features .box-wrapper{
+        box-shadow: none;
+    }
+
+    .box-content .first-box, .box-content .second-box{
+        float: none;
+        width: 100%;
+        height: auto;
+        text-align: left;
+    }
+
+    .box-content{
+        padding: 0.5rem 1rem;
+        text-align: center;
+    }
+
+    .about-containent{
+        text-align: left;
+        width: 100%;
+    }
+
+    .form-wrapper .company-address{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ####################### FOR DEVICES MORE THAN 601px ######################### */
+
+@media (min-width: 601px) and (max-width: 768px){
+    *{
+        box-sizing: border-box;
+    }
+    :root{
+        font-size: 50%;
+    }
+
+    .row{
+        height: auto;
+        width: 100%;
+    }
+
+    .row .img-box, .row .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+        box-shadow: 5px 5px 20px 0px #aaa;    
+    }
+
+    .features .box-2, .features .box-3{
+        margin-top: 2rem;
+    }
+
+    .features .box-wrapper{
+        box-shadow: none;
+    }
+
+    .box-content{
+        padding: 0.5rem 1rem;
+        text-align: center;
+    }
+
+    .about-containent{
+        text-align: left;
+        width: 100%;
+    }
+
+    .form-wrapper .company-address{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+}
